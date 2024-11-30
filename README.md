@@ -35,7 +35,7 @@ Proyek ini adalah aplikasi *Sistem Manajemen Karyawan* berbasis Windows Forms, d
 5. Build dan jalankan aplikasi.
 
 ## Diagram
-![ERD]()
+![ERD](https://github.com/viranarullita/SistemManajemenKaryawan/blob/main/SistemManajemenKaryawan/Resource/Unduhan/ERD.png)
 
 ## Teknologi yang Digunakan
 
