@@ -12,19 +12,17 @@ Proyek ini adalah aplikasi *Sistem Manajemen Karyawan* berbasis Windows Forms, d
 
 ## Struktur Proyek
 
-- *Controller/*: Berisi logika aplikasi, termasuk:
+- *Controller*: Berisi logika aplikasi, termasuk:
   - KaryawanController.cs
   - DepartemenController.cs
   - GajiController.cs
   - LoginController.cs
-- *Model/*: Mengatur koneksi database, seperti:
+- *Model*: Mengatur koneksi database, seperti:
   - Connection.cs
-- *View/*: Antarmuka pengguna (UI) berbasis Windows Forms, contoh:
+- *View*: Antarmuka pengguna (UI) berbasis Windows Forms, contoh:
   - FormDashboard.cs
   - FormKaryawan.cs
   - FormSignIn.cs
-- *Properties/*: Konfigurasi aplikasi.
-- *App.config*: Konfigurasi aplikasi untuk koneksi dan pengaturan lainnya.
 
 ## Cara Menjalankan Proyek
 
@@ -40,11 +38,10 @@ Proyek ini adalah aplikasi *Sistem Manajemen Karyawan* berbasis Windows Forms, d
 ## Teknologi yang Digunakan
 
 - *Bahasa Pemrograman*: C#
-- *Framework*: .NET Framework
+- *Framework*: .NET Framework, Guna2UI
 - *Desain Arsitektur*: MVC (Model-View-Controller)
 
-## Kontribusi
-
-Jika Anda ingin berkontribusi pada proyek ini, silakan lakukan fork, buat branch baru untuk perubahan Anda, dan kirim pull request.
-
-Dikembangkan oleh: *Vira Narullita*
+## Pengembang
+- Nama : *Vira Narullita*
+- Email : viranarullita3@gmail.com
+- Kontak : [081212240502]
