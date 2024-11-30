@@ -191,7 +191,7 @@
             this.TextBox_password.Location = new System.Drawing.Point(587, 311);
             this.TextBox_password.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.TextBox_password.Name = "TextBox_password";
-            this.TextBox_password.PasswordChar = '\0';
+            this.TextBox_password.PasswordChar = '*';
             this.TextBox_password.PlaceholderForeColor = System.Drawing.Color.Black;
             this.TextBox_password.PlaceholderText = "";
             this.TextBox_password.SelectedText = "";

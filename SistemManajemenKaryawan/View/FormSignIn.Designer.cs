@@ -73,7 +73,7 @@
             this.label_register.AutoSize = true;
             this.label_register.Font = new System.Drawing.Font("Gadugi", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label_register.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.label_register.Location = new System.Drawing.Point(127, 483);
+            this.label_register.Location = new System.Drawing.Point(145, 482);
             this.label_register.Name = "label_register";
             this.label_register.Size = new System.Drawing.Size(264, 28);
             this.label_register.TabIndex = 7;

@@ -33,7 +33,7 @@
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle3 = new System.Windows.Forms.DataGridViewCellStyle();
             this.GradientPanel_atas = new Guna.UI2.WinForms.Guna2GradientPanel();
             this.Button_keluar = new Guna.UI2.WinForms.Guna2Button();
-            this.label2 = new System.Windows.Forms.Label();
+            this.label_judulapliksi = new System.Windows.Forms.Label();
             this.Panel_kiri = new Guna.UI2.WinForms.Guna2Panel();
             this.PictureBox_dept = new Guna.UI2.WinForms.Guna2PictureBox();
             this.ShadowPanel_karyawan = new Guna.UI2.WinForms.Guna2ShadowPanel();
@@ -47,7 +47,6 @@
             this.label_judul = new System.Windows.Forms.Label();
             this.DataGridView_departemen = new Guna.UI2.WinForms.Guna2DataGridView();
             this.Button_cancel = new Guna.UI2.WinForms.Guna2Button();
-            this.guna2Button1 = new Guna.UI2.WinForms.Guna2Button();
             this.GradientPanel_atas.SuspendLayout();
             this.Panel_kiri.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.PictureBox_dept)).BeginInit();
@@ -62,7 +61,7 @@
             this.GradientPanel_atas.BackColor = System.Drawing.Color.CadetBlue;
             this.GradientPanel_atas.BorderColor = System.Drawing.Color.Black;
             this.GradientPanel_atas.Controls.Add(this.Button_keluar);
-            this.GradientPanel_atas.Controls.Add(this.label2);
+            this.GradientPanel_atas.Controls.Add(this.label_judulapliksi);
             this.GradientPanel_atas.FillColor = System.Drawing.Color.SkyBlue;
             this.GradientPanel_atas.Location = new System.Drawing.Point(-3, -3);
             this.GradientPanel_atas.Name = "GradientPanel_atas";
@@ -86,24 +85,23 @@
             this.Button_keluar.Text = "X";
             this.Button_keluar.Click += new System.EventHandler(this.Button_keluar_Click);
             // 
-            // label2
+            // label_judulapliksi
             // 
-            this.label2.AutoSize = true;
-            this.label2.BackColor = System.Drawing.Color.Transparent;
-            this.label2.Font = new System.Drawing.Font("Verdana", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.ForeColor = System.Drawing.Color.White;
-            this.label2.Location = new System.Drawing.Point(12, 12);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(341, 25);
-            this.label2.TabIndex = 0;
-            this.label2.Text = "Sistem Manajemen Karyawan\r\n";
+            this.label_judulapliksi.AutoSize = true;
+            this.label_judulapliksi.BackColor = System.Drawing.Color.Transparent;
+            this.label_judulapliksi.Font = new System.Drawing.Font("Verdana", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label_judulapliksi.ForeColor = System.Drawing.Color.White;
+            this.label_judulapliksi.Location = new System.Drawing.Point(12, 12);
+            this.label_judulapliksi.Name = "label_judulapliksi";
+            this.label_judulapliksi.Size = new System.Drawing.Size(341, 25);
+            this.label_judulapliksi.TabIndex = 0;
+            this.label_judulapliksi.Text = "Sistem Manajemen Karyawan\r\n";
             // 
             // Panel_kiri
             // 
             this.Panel_kiri.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left)));
             this.Panel_kiri.BackColor = System.Drawing.SystemColors.GradientActiveCaption;
-            this.Panel_kiri.Controls.Add(this.guna2Button1);
             this.Panel_kiri.Controls.Add(this.PictureBox_dept);
             this.Panel_kiri.Controls.Add(this.ShadowPanel_karyawan);
             this.Panel_kiri.Location = new System.Drawing.Point(-2, 40);
@@ -351,24 +349,6 @@
             this.Button_cancel.Text = "Cancel";
             this.Button_cancel.Click += new System.EventHandler(this.Button_cancel_Click);
             // 
-            // guna2Button1
-            // 
-            this.guna2Button1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
-            this.guna2Button1.BackColor = System.Drawing.Color.Transparent;
-            this.guna2Button1.BorderRadius = 10;
-            this.guna2Button1.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
-            this.guna2Button1.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
-            this.guna2Button1.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.guna2Button1.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.guna2Button1.FillColor = System.Drawing.Color.IndianRed;
-            this.guna2Button1.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.guna2Button1.ForeColor = System.Drawing.Color.White;
-            this.guna2Button1.Location = new System.Drawing.Point(300, 278);
-            this.guna2Button1.Name = "guna2Button1";
-            this.guna2Button1.Size = new System.Drawing.Size(155, 41);
-            this.guna2Button1.TabIndex = 20;
-            this.guna2Button1.Text = "Cancel";
-            // 
             // FormDepartemen
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
@@ -400,7 +380,7 @@
 
         private Guna.UI2.WinForms.Guna2GradientPanel GradientPanel_atas;
         private Guna.UI2.WinForms.Guna2Button Button_keluar;
-        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.Label label_judulapliksi;
         private Guna.UI2.WinForms.Guna2Panel Panel_kiri;
         private Guna.UI2.WinForms.Guna2PictureBox PictureBox_dept;
         private Guna.UI2.WinForms.Guna2ShadowPanel ShadowPanel_karyawan;
@@ -414,6 +394,5 @@
         private System.Windows.Forms.Label label_judul;
         private Guna.UI2.WinForms.Guna2DataGridView DataGridView_departemen;
         private Guna.UI2.WinForms.Guna2Button Button_cancel;
-        private Guna.UI2.WinForms.Guna2Button guna2Button1;
     }
 }

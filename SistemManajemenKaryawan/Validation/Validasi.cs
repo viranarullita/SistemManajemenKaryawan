@@ -22,9 +22,9 @@ namespace SistemManajemenKaryawan.Validation
                 }
             }
 
-            if (user[0] == ' ' || user[user.Length - 1] == ' ')
+            if (user[0] == ' ' || user[user.Length - 1] == ' ' || user.Length < 5  || user.Length > 12)
             {
-                MessageBox.Show("Input Username gagal. Username tidak boleh diawali atau diakhiri dengan spasi",
+                MessageBox.Show("Input Username gagal. Username 5-12 karakter tidak boleh diawali atau diakhiri dengan spasi",
                                 "Validasi Username", MessageBoxButtons.OK, MessageBoxIcon.Warning);
                 return false;
             }

@@ -44,28 +44,13 @@ namespace SistemManajemenKaryawan.Controller
             {
                 string query = "UPDATE departemen SET nama_dept = @nama_dept WHERE id_dept = @id_dept";
                 cmd = new MySqlCommand(query, GetConn());
-                cmd.Parameters.Add("@id_dept", MySqlDbType.Int32).Value = idDept;  // Menambahkan ID departemen
-                cmd.Parameters.Add("@nama_dept", MySqlDbType.VarChar).Value = namaDept; // Mengupdate nama departemen
+                cmd.Parameters.Add("@id_dept", MySqlDbType.Int32).Value = idDept;  
+                cmd.Parameters.Add("@nama_dept", MySqlDbType.VarChar).Value = namaDept; 
                 cmd.ExecuteNonQuery();
             }
             catch (Exception ex)
             {
                 MessageBox.Show("Gagal mengupdate departemen: " + ex.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
-            }
-        }
-
-        public void HapusDepartemen(int idDept)
-        {
-            try
-            {
-                string query = "DELETE FROM departemen WHERE id_dept = @id_dept";
-                cmd = new MySqlCommand(query, GetConn());
-                cmd.Parameters.Add("@id_dept", MySqlDbType.Int32).Value = idDept;
-                cmd.ExecuteNonQuery();
-            }
-            catch (Exception ex)
-            {
-                MessageBox.Show("Gagal menghapus departemen: " + ex.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
         }
     }

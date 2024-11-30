@@ -63,7 +63,7 @@
             this.ShadowPanel_nonaktif.Controls.Add(this.label_nonaktif);
             this.ShadowPanel_nonaktif.Controls.Add(this.CirclePictureBox_nonaktif);
             this.ShadowPanel_nonaktif.FillColor = System.Drawing.Color.PowderBlue;
-            this.ShadowPanel_nonaktif.Location = new System.Drawing.Point(772, 483);
+            this.ShadowPanel_nonaktif.Location = new System.Drawing.Point(793, 483);
             this.ShadowPanel_nonaktif.Name = "ShadowPanel_nonaktif";
             this.ShadowPanel_nonaktif.ShadowColor = System.Drawing.Color.Black;
             this.ShadowPanel_nonaktif.ShadowShift = 10;
@@ -116,7 +116,7 @@
             this.ShadowPanel_aktif.Controls.Add(this.label_aktif);
             this.ShadowPanel_aktif.Controls.Add(this.CirclePictureBox_aktif);
             this.ShadowPanel_aktif.FillColor = System.Drawing.Color.PowderBlue;
-            this.ShadowPanel_aktif.Location = new System.Drawing.Point(772, 275);
+            this.ShadowPanel_aktif.Location = new System.Drawing.Point(793, 275);
             this.ShadowPanel_aktif.Name = "ShadowPanel_aktif";
             this.ShadowPanel_aktif.ShadowColor = System.Drawing.Color.Black;
             this.ShadowPanel_aktif.ShadowShift = 10;
@@ -169,7 +169,7 @@
             this.ShadowPanel_total.Controls.Add(this.label_total);
             this.ShadowPanel_total.Controls.Add(this.CirclePictureBox_total);
             this.ShadowPanel_total.FillColor = System.Drawing.Color.PowderBlue;
-            this.ShadowPanel_total.Location = new System.Drawing.Point(772, 67);
+            this.ShadowPanel_total.Location = new System.Drawing.Point(793, 67);
             this.ShadowPanel_total.Name = "ShadowPanel_total";
             this.ShadowPanel_total.ShadowColor = System.Drawing.Color.Black;
             this.ShadowPanel_total.ShadowShift = 10;
@@ -225,7 +225,7 @@
             this.GradientPanel_atas.FillColor = System.Drawing.Color.SkyBlue;
             this.GradientPanel_atas.Location = new System.Drawing.Point(-3, -2);
             this.GradientPanel_atas.Name = "GradientPanel_atas";
-            this.GradientPanel_atas.Size = new System.Drawing.Size(1107, 53);
+            this.GradientPanel_atas.Size = new System.Drawing.Size(1128, 53);
             this.GradientPanel_atas.TabIndex = 10;
             // 
             // Button_keluar
@@ -238,7 +238,7 @@
             this.Button_keluar.FillColor = System.Drawing.Color.SteelBlue;
             this.Button_keluar.Font = new System.Drawing.Font("Arial Rounded MT Bold", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Button_keluar.ForeColor = System.Drawing.Color.Red;
-            this.Button_keluar.Location = new System.Drawing.Point(1047, 0);
+            this.Button_keluar.Location = new System.Drawing.Point(1068, 0);
             this.Button_keluar.Name = "Button_keluar";
             this.Button_keluar.Size = new System.Drawing.Size(58, 53);
             this.Button_keluar.TabIndex = 35;
@@ -269,7 +269,7 @@
             this.Button_cancel.FillColor = System.Drawing.Color.IndianRed;
             this.Button_cancel.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Button_cancel.ForeColor = System.Drawing.Color.White;
-            this.Button_cancel.Location = new System.Drawing.Point(15, 630);
+            this.Button_cancel.Location = new System.Drawing.Point(15, 664);
             this.Button_cancel.Name = "Button_cancel";
             this.Button_cancel.Size = new System.Drawing.Size(147, 45);
             this.Button_cancel.TabIndex = 23;
@@ -285,7 +285,7 @@
             this.PictureBox_dashboard.ImageRotate = 0F;
             this.PictureBox_dashboard.Location = new System.Drawing.Point(15, 72);
             this.PictureBox_dashboard.Name = "PictureBox_dashboard";
-            this.PictureBox_dashboard.Size = new System.Drawing.Size(743, 544);
+            this.PictureBox_dashboard.Size = new System.Drawing.Size(764, 578);
             this.PictureBox_dashboard.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.PictureBox_dashboard.TabIndex = 24;
             this.PictureBox_dashboard.TabStop = false;
@@ -295,7 +295,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Gainsboro;
-            this.ClientSize = new System.Drawing.Size(1101, 693);
+            this.ClientSize = new System.Drawing.Size(1122, 727);
             this.Controls.Add(this.ShadowPanel_total);
             this.Controls.Add(this.ShadowPanel_aktif);
             this.Controls.Add(this.ShadowPanel_nonaktif);

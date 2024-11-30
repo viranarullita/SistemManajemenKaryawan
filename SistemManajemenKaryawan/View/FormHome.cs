@@ -52,7 +52,12 @@ namespace SistemManajemenKaryawan.View
 
         private void Button_keluar_Click(object sender, EventArgs e)
         {
-            Application.Exit();
+            DialogResult tanya = MessageBox.Show("Apakah Anda yakin ingin keluar Aplikasi?", "Konfirmasi Exit", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
+
+            if (tanya == DialogResult.Yes)
+            {
+                Application.Exit();
+            }
         }
 
         private void Button_dashboard_Click(object sender, EventArgs e)
